@@ -20,8 +20,14 @@ Machine Learning on the Web.
 
 
 * Free software: MIT license
-* Documentation: https://webml.readthedocs.io.
+* Documentation: https://webml.readthedocs.io (soon!).
 
+Want to Develop Locally?
+-------------------------
+
+* Create a virtual env or conda environment (your choice!)
+* Run `python setup.py develop`
+* Run  `webml` and you're done!
 
 Features
 --------
