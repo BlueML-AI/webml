@@ -10,8 +10,14 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=7.0', ]
+REQUIREMENTS_PROD = 'requirements_prod.txt'
 
+def load_requirements(path=REQUIREMENTS_PROD):
+    with open(path,"r") as f:
+        packages = [line for line in f.read().split('\n') if len(line) > 0]
+    return packages
+
+requirements = load_requirements()
 test_requirements = ['pytest>=3', ]
 
 setup(

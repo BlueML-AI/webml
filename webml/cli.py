@@ -1,14 +1,15 @@
 """Console script for webml."""
 import sys
 import click
+from webml.webml import run_app
 
 
 @click.command()
-def main(args=None):
+@click.option("--port",default=5000,help="Port number to run WebML on")
+def main(port):
     """Console script for webml."""
-    click.echo("Replace this message by putting your code into "
-               "webml.cli.main")
-    click.echo("See click documentation at https://click.palletsprojects.com/")
+    run_app(port)
+    # click.echo("See click documentation at https://click.palletsprojects.com/")
     return 0
 
 
