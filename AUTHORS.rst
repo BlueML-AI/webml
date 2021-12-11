@@ -5,7 +5,8 @@ Credits
 Development Lead
 ----------------
 
-* BlueML AI <james.liang.cje@gmail.com>
+* James Liang <james.liang.cje@gmail.com>
+* Ayush Singh <intelligentprogrammer123@gmail.com>
 
 Contributors
 ------------

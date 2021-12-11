@@ -5,7 +5,7 @@ from webml.webml import run_app
 
 
 @click.command()
-@click.option("--port",default=5000,help="Port number to run WebML on")
+@click.option("--port",default=8050,help="Port number to run WebML on")
 def main(port):
     """Console script for webml."""
     run_app(port)
